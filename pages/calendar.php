@@ -64,6 +64,8 @@
     </div> 
 </div>
              
-
+            <div class="col-md-12">
+            <a href="/" class="btn">HOME</a>
+            </div>
 </body>
 </html>

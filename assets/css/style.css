@@ -1,0 +1,117 @@
+.header{
+    background: #504ecf;
+  }
+  .header p{
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    padding: 16px;
+    margin: 0;
+    font-weight: 700;
+  }
+  span{
+    color: #fff;
+    padding: 16px;
+  }
+  .padding-reset{
+    padding-left: 0;
+    padding-right: 0;
+
+  }
+ .output{
+     background-color: #f2f2f2;
+     display: flex;
+     align-items: flex-end;
+     justify-content: space-around;
+     flex-direction: column;
+     padding: 10px;
+     word-wrap: break-word;
+     word-break: break-all;
+ }
+
+ .output .previous-operand{
+     color: black;
+     font-size: 1.5rem;
+ }
+ .output .current-operand{
+     color: black;
+     font-size: 2.5rem;
+ }
+  
+ 
+  .btn {
+    padding: 8px;
+    background: #f2f2f2;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+
+  #del{
+    background: #F40057;
+    color: #fff;
+  }
+  #plus{
+    height: 97px;
+  }
+  #equal{
+    background: #80C683;
+    color: #fff;
+  }
+
+ .container {
+ width: 70rem;
+ 
+ } 
+ 
+ .month {
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 1cm;
+    background-color: #504ecf;
+    padding: .5cm;
+
+  }
+
+ .weekdays {
+  display: flex;
+  align-items: center;
+  width: auto;  
+
+ }
+ .weekdays div{
+   font-weight: bold;
+   padding: 6px;
+   width: calc(70rem/7);
+   align-items: center;
+   text-align: center;
+   
+ }
+
+ .days {   
+  
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  
+  
+ }
+
+ .days div{
+  
+  font-size: 1.5rem; 
+  margin: auto;
+  width: calc(70rem/8);
+  padding: 7px;
+  align-items: center;
+  text-align: center;
+}
+
+.prev-days, .next-days{
+  opacity: 0.5;
+
+}
